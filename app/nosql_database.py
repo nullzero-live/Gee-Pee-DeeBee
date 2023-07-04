@@ -11,7 +11,7 @@ def upload_database(new_documents: list):
 
   new_documents = new_documents
   # Provide the mongodb atlas url to connect python to mongodb using pymongo
-  CONNECTION_STRING = f"mongodb+srv://nullzeroid:ZFAtWRv38lqdPpQF@inventure-acc.ymxpth9.mongodb.net/?retryWrites=true&w=majority"
+  CONNECTION_STRING = 
 
   # Create a connection using MongoClient. You can import MongoClient or use pymongo.MongoClient
   client = MongoClient(CONNECTION_STRING) #CONNECTION_STRING
